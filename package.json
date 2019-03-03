@@ -1,0 +1,15 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Simple logger API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Federico Knüssel <fknussel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
