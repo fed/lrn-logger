@@ -2,6 +2,12 @@
 
 Simple logger API.
 
+## Running the API
+
+```
+npm start
+```
+
 ## Logging values
 
 ```js
@@ -10,7 +16,9 @@ const itemsApp = LearnosityItems.init(window.activity, {
     const nodes = document.querySelectorAll('.lrn_stimulus_content > span > strong');
     const values = Array.from(nodes).map(node => Number(node.textContent));
 
-    fetch(`http://localhost:6789/?values=${values}`).then(location.reload);
+    fetch(`http://localhost:6789/?values=${values}`).then(() => {
+      location.reload();
+    });
   }
 });
 ```
