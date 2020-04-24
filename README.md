@@ -1,6 +1,6 @@
 # Logger
 
-Simple logger API.
+Simple logger API to keep track of random values generated dynamically by Items API and analyse their frequency.
 
 ## Running the API
 
